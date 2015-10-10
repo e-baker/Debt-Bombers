@@ -8,6 +8,9 @@
 * 
 */ 
 
+/** Start the engine */
+require_once( TEMPLATEPATH . '/lib/init.php' );
+
 /** 
 * Theme Setup 
 * 
@@ -21,5 +24,6 @@ add_action('genesis_setup','child_theme_setup', 15);
 function child_theme_setup() { 
 
 }
+
 
 ?>
